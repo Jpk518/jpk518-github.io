@@ -2460,13 +2460,26 @@
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0 0 1em 0;
 			width: 100%;
 		}
 
 			.image.main img {
 				width: 100%;
 			}
+
+	/* Image 2 */
+	.imagetwo {
+		border-radius: 8px;
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+	.imagetwo img {
+		border-radius: 8px;
+
+	}
 
 /* List */
 
@@ -3106,13 +3119,6 @@
 			letter-spacing: -0.025em;
 		}
 
-		#header.alt {
-			padding: 7em 5em 4em 5em ;
-		}
-
-			#header.alt h1 {
-				font-size: 3.25em;
-			}
 
 			#header.alt > * {
 				-moz-transition: opacity 3s ease;
@@ -3126,24 +3132,6 @@
 				opacity: 1;
 			}
 
-			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
-				-moz-transition-delay: 0s;
-				-webkit-transition-delay: 0s;
-				-ms-transition-delay: 0s;
-				transition-delay: 0s;
-				display: block;
-				margin: 0 0 1.5em 0;
-			}
-
-				#header.alt .logo img {
-					display: block;
-					margin: 0 auto;
-					max-width: 75%;
-				}
 
 		@media screen and (max-width: 1280px) {
 
@@ -3597,7 +3585,7 @@
 		}
 
 		#main > .main {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 5em 2em 5em ;
 			border-top: solid 1px #dddddd;
 		}
 
